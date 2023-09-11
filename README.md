@@ -4,7 +4,7 @@ Follow these steps to install the dashboard refresh portlet using Salto.io in a 
 1. Log in to Salto
 2. Go go Compare & Deploy
 3. Click the Down Arrow next to Compare & Deploy and choose SDF Pull Request
-4. Add the pull request url to the Source field: https://github.com/salto-io/netsuite-dashboard-refresh/pull/1
+4. Add the pull request url to the Source field: ```https://github.com/salto-io/netsuite-dashboard-refresh/pull/1```
 5. Click Create Deployment
 6. Proceed with the Deployment.
 
