@@ -1,0 +1,25 @@
+<portlet scriptid="customscript_dashboard_refresh">
+  <description>Dashboard Refresh Portlet</description>
+  <isinactive>F</isinactive>
+  <name>Dashboard Refresh</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <portlettype>FORM</portlettype>
+  <scriptfile>[/SuiteScripts/dashboard-refresh/dashboard-refresh-pl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_dashboard_refresh">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <dashboardapp>F</dashboardapp>
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Dashboard Refresh</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</portlet>
